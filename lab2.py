@@ -1,0 +1,9 @@
+
+def main():
+    weeks = 16
+    classes = 5
+    tuition = 5000
+    cost_per_week = ((tuition / classes) / weeks)
+    print("Cost per week:", cost_per_week)
+
+main()
